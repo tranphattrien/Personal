@@ -1,0 +1,24 @@
+.about {
+  padding: 10rem  0;
+  @include breakpoint(990){
+    padding: 80px 0px;
+    height: 790px;
+  }
+  &__text {
+    &-title {
+      @include fontRoboto;
+      margin-bottom: 2.5rem;
+    }
+    &-decs {
+      @include fontPoppins(1.6rem);
+      @include max-breakpoint(991)
+            {
+                margin-top: 25px;
+            }
+      p {
+        margin-bottom: 2.5rem;
+        line-height: 2.8rem;
+      }
+    }
+  }
+}

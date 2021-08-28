@@ -1,0 +1,43 @@
+.policy {
+  padding: 4.2rem 0 10rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include breakpoint(768){
+	padding: 80px 0px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.col-md-4{
+		width: 100%;
+	}	
+	}
+//   }
+	&__content {
+		padding: 0 4rem;
+    	position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			right: 0;
+			top: 15%;
+			bottom: 15%;
+			width: 1px;
+			background-color: #ddd;
+			@include max-breakpoint(990){
+				display: none;
+			}
+		}
+		&-icon {
+			i {
+				font-size: 5.6rem;
+			}
+		}
+		&-title {
+			@include fontRoboto(2rem, 500);
+		}
+		&-text {
+			@include fontPoppins(1.6rem);
+		}
+	}
+}

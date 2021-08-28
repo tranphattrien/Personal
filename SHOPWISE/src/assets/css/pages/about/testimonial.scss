@@ -1,0 +1,24 @@
+.testimonial {
+  padding: 10rem 0;
+  background-color: #fff1f1;
+  &__text {
+    &-title {
+      margin-bottom: 3rem;
+    }
+    &-desc {
+      text-align: center;
+    }
+    &-client {
+      margin-top: 3rem;
+      .client__text {
+        margin-left: 1.5rem;
+        &-name {
+          @include fontRoboto(1.8rem, 500)
+        }
+        &-job {
+          @include fontPoppins(1.8rem, $text-pink)
+        }
+      }
+    }
+  }
+}
