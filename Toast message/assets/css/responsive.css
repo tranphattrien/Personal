@@ -1,0 +1,72 @@
+/* PC */
+@media (min-width: 64em){
+
+}
+/* Tablet */
+@media (min-width: 45.25em) and (max-width: 63.9375em){
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .s-full,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt8{
+        margin-top: 8px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        /* Reset ve gia tri Default */
+        position: initial;
+        background: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #content .member-list{
+        flex-direction: column;
+    }
+    #content .member-item{
+        margin-top: 30px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .place-list{
+        display: block;
+    }
+    .place-list-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+    .contact-info p{
+        padding: 8px 0;
+    }
+    .btn{
+        width: 100%;
+    }
+}
