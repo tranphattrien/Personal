@@ -252,7 +252,8 @@ a {
         transition: 0.5s;
         transform: translateY(25%);
         opacity: 0;
-        z-index: 1000; }
+        z-index: 1;
+        background-color: #fff; }
         .header__main-nav .nav__list-item .item__dropdown-item {
           padding: 0.5rem 0 1rem 1rem; }
     .header__main-nav .nav__list .nav__list-item.left-dropdown {
